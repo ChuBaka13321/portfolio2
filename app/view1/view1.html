@@ -1,10 +1,34 @@
 <div class="projects">
   <div>
-    <div>Filter through the Projects:<input ng-model="query"></div>
+    <div class="section group">
+      <div class="col span_1_of_4">
+        <!-- <div id="filter">Filter through the Projects:<input ng-model="query"></div> -->
+  </div>
+  <div class="col span_1_of_4">
+  
+  </div>
+  <div class="col span_1_of_4">
+  </div>
+  <div class="col span_1_of_4">
+  </div>
+</div>
+    
     <div ng-repeat="project in projects | filter:query | orderBy:orderProp">
-      <h3>{{project.name}}</h3> 
-      <p>{{project.snippet}}</p>
-      <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
+      <div class="section group">
+        <div class="col span_1_of_4">
+        </div>
+        <div class="col span_1_of_4">
+          <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
+        </div>
+        <div class="col span_1_of_4">
+          <a href="{{project.url}}"><h3>{{project.name}}</h3></a> 
+          <p>{{project.snippet}}</p>
+        </div>
+        <div class="col span_1_of_4">
+        </div>
+      </div>
+          
     </div>
   </div>
 </div>
+
