@@ -12,22 +12,27 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('View1Ctrl', ['$scope',function($scope) {
 
 $scope.projects = [
-    {'name': 'About Me',
-     'snippet': 'What I originally sent in my application.',
-     'age': 3,
-     'url': 'http://myfirstwebsite.bitballoon.com/',
-     'imageURL': 'view1/img/firstwebsite.png'},
-    {'name': 'Aliens TicTacToe',
-     'snippet': 'My first WDI project',
-     'age': 2,
-     'url': 'https://tictacchu.firebaseapp.com/',
-     'imageURL': 'view1/img/tttaliens.png'},
+    {'name': 'My Portfolio',
+     'snippet': 'I decided to revisit some Angular as well as try out some new things while building this app.',
+     'age': 1,
+     'url': 'https://brianc.herokuapp.com/#/view1',
+     'imageURL': 'view1/img/sunDerp.png'},
     {'name': 'SunDerp\'s Adventure',
      'snippet': 'A game we built together.',
-     'age': 1,
+     'age': 2,
      'url': 'http://sunderp.herokuapp.com/',
-     'imageURL': 'view1/img/sunDerp.png'}
-];
+     'imageURL': 'view1/img/sunDerp.png'},
+    {'name': 'Aliens TicTacToe',
+     'snippet': 'My first WDI project',
+     'age': 3,
+     'url': 'https://tictacchu.firebaseapp.com/',
+     'imageURL': 'view1/img/tttaliens.png'},
+    {'name': 'About Me',
+     'snippet': 'What I originally sent in my application.',
+     'age': 4,
+     'url': 'http://myfirstwebsite.bitballoon.com/',
+     'imageURL': 'view1/img/firstwebsite.png'}
+ ];
 
 $scope.orderProp = 'age';
 

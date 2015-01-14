@@ -27,7 +27,7 @@
     </ul>
   </div> -->
 
-  <div id="demo_top_wrapper">
+  <!-- <div id="demo_top_wrapper"> -->
  
     <!-- a header with a logo just to have some content before the menu -->
   <!--   <div id="demo_top">
@@ -37,25 +37,38 @@
     </div> -->
  
     <!-- this will be our navigation menu -->
-    <div id="sticky_navigation_wrapper">
+    <!-- <div id="sticky_navigation_wrapper">
         <div id="sticky_navigation">
             <div class="demo_container">
                 <ul>
                     <li><a href="#" class="selected">HOME</a></li>
-                    <li><a href="#two">Projects</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">CLIENTS</a></li>
+                    <li><a href="#1">Projects</a></li>
+                    <li><a href="#2">SERVICES</a></li>
+                    <li><a href="#3">CLIENTS</a></li>
                     <li><a href="#">PARTNERS</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
  
-</div><!-- #demo_top_wrapper -->
+<!-- </div>#demo_top_wrapper -->
+<header>
+  <ul>
+    <li><a href="#1">ONE</a></li>
+    <li><a href="#2">TWO</a></li>
+    <li><a href="#3">THREE</a></li>
+    <li><a href="#4">FOUR</a></li>
+  </ul>
+</header>
  
 <!-- some other content should go here, in order to have a scrollbar -->
-  <div ng-view></div>
+  <section id="1" class="sect body-image1 targeted"></section>
+  <div ng-view id="2"></div>
+  <section id="3" class="sect body-image2"></section>
+  <section id="4" class="sect body-image3"></section>
+
+
 
 
   <!-- In production use:

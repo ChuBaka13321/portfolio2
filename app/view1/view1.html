@@ -1,11 +1,10 @@
-<p>
-  <div class="projects">
-    <input ng-model="query">
+<div class="projects">
+  <div>
+    <div>Filter through the Projects:<input ng-model="query"></div>
     <div ng-repeat="project in projects | filter:query | orderBy:orderProp">
-      <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
       <h3>{{project.name}}</h3> 
       <p>{{project.snippet}}</p>
+      <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
     </div>
   </div>
-  <p id="two">yoyoyooyoyoy</p>
-</p>
+</div>
