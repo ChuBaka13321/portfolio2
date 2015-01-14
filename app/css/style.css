@@ -1,8 +1,93 @@
 html {
     font-size: 1em;
     line-height: 1.4;
+    text-align: center;
+    margin: 0;
 }
 img {
     border: 2px solid;
     border-radius: 25px;
+    border-color: gray;
 }
+.background{
+  background-image: url("../view1/img/background.jpg");
+}
+/*.projects {
+  height: 100vh;
+}*/
+
+
+/*#cssmenu {
+  zoom: 1;
+  width: auto;
+  background: rgba(0,0,0,0.6);
+  padding: 8px 0;
+}
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu ul {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #7ab900;
+  zoom: 1;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li a {
+  float: left;
+  color: #A79787;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+}
+#cssmenu li:hover,
+#cssmenu .active {
+  text-decoration: none;
+  border-bottom: 2px solid #7ab900;
+}
+#cssmenu li:hover a {
+  color: #fff;
+}
+#cssmenu .active a {
+  color: #fff;
+  font-weight: 700;
+}*/
+
+.demo_container { width:980px; margin:0 auto; }
+#demo_top_wrapper { margin:0 0 20px 0; }
+#demo_top { height:100px; padding:20px 0 0 0; }
+#my_logo { font:70px Georgia, serif; }
+ 
+/* our menu styles */
+#sticky_navigation_wrapper { width:100%; height:50px; }
+#sticky_navigation { width:100%; height:50px; background:url(trans-black-60.png); -moz-box-shadow: 0 0 5px #999; -webkit-box-shadow: 0 0 5px #999; box-shadow: 0 0 5px #999; }
+#sticky_navigation ul { list-style:none; margin:0; padding:5px; }
+#sticky_navigation ul li { margin:0; padding:0; display:inline; }
+#sticky_navigation ul li a { display:block; float:left; margin:0 0 0 5px; padding:0 20px; height:40px; line-height:40px; font-size:14px; font-family:Arial, serif; font-weight:bold; color:#ddd; background:#333; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; }
+#sticky_navigation ul li a:hover, #sticky_navigation ul li a.selected { color:#fff; background:#111; }
