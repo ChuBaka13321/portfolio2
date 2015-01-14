@@ -1,0 +1,8 @@
+<p>
+  <input ng-model="query">
+  <li ng-repeat="project in projects | filter:query | orderBy:orderProp">
+    <p>{{project.name}}</p>
+    <p>{{project.snippet}}</p>
+    <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="100" width="100"></a>
+  </li>
+</p>
