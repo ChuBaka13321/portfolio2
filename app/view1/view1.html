@@ -1,18 +1,4 @@
 <div class="projects">
-  <div>
-    <div class="section group">
-      <div class="col span_1_of_4">
-        <!-- <div id="filter">Filter through the Projects:<input ng-model="query"></div> -->
-  </div>
-  <div class="col span_1_of_4">
-  
-  </div>
-  <div class="col span_1_of_4">
-  </div>
-  <div class="col span_1_of_4">
-  </div>
-</div>
-    
     <div ng-repeat="project in projects | filter:query | orderBy:orderProp">
       <div class="section group">
         <div class="col span_1_of_4">
@@ -29,6 +15,5 @@
       </div>
           
     </div>
-  </div>
 </div>
 
