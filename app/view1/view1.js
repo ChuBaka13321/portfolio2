@@ -16,7 +16,7 @@ $scope.projects = [
      'snippet': 'I decided to revisit some Angular as well as try out some new things while building this app.',
      'age': 1,
      'url': 'https://brianc.herokuapp.com/#/view1',
-     'imageURL': 'view1/img/sunDerp.png'},
+     'imageURL': 'view1/img/yosemite.jpg'},
     {'name': 'SunDerp\'s Adventure',
      'snippet': 'A game we built together.',
      'age': 2,
@@ -35,5 +35,5 @@ $scope.projects = [
  ];
 
 $scope.orderProp = 'age';
-
+$scope.opacity = true;
 }]);

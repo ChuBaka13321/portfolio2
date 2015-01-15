@@ -4,16 +4,15 @@
         <div class="col span_1_of_4">
         </div>
         <div class="col span_1_of_4">
-          <a href="{{project.url}}"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
+          <a href="{{project.url}}" ng-class="{'red' : opacity, 'green' : !opacity}" ng-mouseenter="opacity=false" ng-mouseleave = "opacity=true"><img ng-src="{{project.imageURL}}" height="200" width="200"></a>
         </div>
         <div class="col span_1_of_4">
-          <a href="{{project.url}}"><h3>{{project.name}}</h3></a> 
+          <a href="{{project.url}}"><h2 ng-class="{'red' : opacity, 'green' : !opacity}" ng-mouseenter="opacity=false" ng-mouseleave = "opacity=true">{{project.name}}</h2></a> 
           <p>{{project.snippet}}</p>
         </div>
         <div class="col span_1_of_4">
         </div>
-      </div>
-          
+      </div>    
     </div>
 </div>
 
