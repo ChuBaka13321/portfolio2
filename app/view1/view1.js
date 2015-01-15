@@ -13,7 +13,7 @@ angular.module('myApp.view1', ['ngRoute'])
 
 $scope.projects = [
     {'name': 'My Portfolio',
-     'snippet': 'I decided to revisit some Angular as well as try out some new things while building this app.',
+     'snippet': 'I decided to revisit some Angular as well as try out some new things while building this app. (Area in the Works)',
      'age': 1,
      'url': 'https://brianc.herokuapp.com/#/view1',
      'imageURL': 'view1/img/yosemite.jpg'},
@@ -23,12 +23,12 @@ $scope.projects = [
      'url': 'http://sunderp.herokuapp.com/',
      'imageURL': 'view1/img/sunDerp.png'},
     {'name': 'Aliens TicTacToe',
-     'snippet': 'This was my first WDI project',
+     'snippet': 'This was my first WDI project. (Area in the Works)',
      'age': 3,
      'url': 'https://tictacchu.firebaseapp.com/',
      'imageURL': 'view1/img/tttaliens.png'},
     {'name': 'About Me',
-     'snippet': 'What I originally sent in my application.',
+     'snippet': 'What I originally sent in my application. (Area in the Works)',
      'age': 4,
      'url': 'http://myfirstwebsite.bitballoon.com/',
      'imageURL': 'view1/img/firstwebsite.png'}
