@@ -1,5 +1,5 @@
 <div class="projects">
-    <h3>My Projects</h3>
+    <h2>My Projects</h2>
     <div ng-repeat="project in projects | filter:query | orderBy:orderProp">
       <div class="section group">
         <div class="col span_1_of_4">
@@ -9,7 +9,7 @@
         </div>
         <div class="col span_1_of_4">
           <a href="{{project.url}}"><h2 ng-class="{'red' : opacity, 'green' : !opacity}" ng-mouseenter="opacity=false" ng-mouseleave = "opacity=true">{{project.name}}</h2></a> 
-          <p>{{project.snippet}}</p>
+          <p class="snippet">{{project.snippet}}</p>
         </div>
         <div class="col span_1_of_4">
         </div>

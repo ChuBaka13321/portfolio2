@@ -197,6 +197,7 @@ h3{
   /*font-size: 1.2vw;*/
   font-family: 'Quicksand', sans-serif;
 }
+
 h2, h5{
   margin: 0;
   padding: 0;
@@ -208,6 +209,11 @@ p{
   font-size: 1.0vh;
   font-size: 0.9vw;
 }
+
+.snippet{
+  font-size: 1.2vw;
+}
+
 a {
   text-decoration: none;
   color: rgba(255,255,255,0.7);
@@ -350,8 +356,19 @@ i:hover, a:hover {
     width: 250px;
     height: 30px;
     background-color: white;
+    z-index: 20;
 }
 
+.footer {
+  color: white;
+  position: relative;
+  font-size: 1.5em;
+  text-align: center;
+  padding: .5em 0;
+  top: 180px;
+  margin: 0;
+  text-align: center;
+}
 
 /*.sect:nth-of-type(1):after {
   color: #fff;
