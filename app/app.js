@@ -30,6 +30,39 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function() {
+    $("#StayOpen").hover(
+    function() {
+        $("#theBox_2").slideDown(500);
+    }, function() {
+        $("#theBox_2").slideUp(500);
+    });
+});
+
+//Node Mailer Jquery stuff////////////////////////////
+// $(document).ready(function(){
+//     var from,to,subject,text;
+//     $("#send_email").click(function(){      
+//         to=$("#to").val();
+//         subject=$("#subject").val();
+//         text=$("#content").val();
+//         $("#message").text("Sending E-mail...Please wait");
+//         $.get("http://localhost:3000/send",{to:to,subject:subject,text:text},function(data){
+//         if(data=="sent")
+//         {
+//             $("#message").empty().html("
+
+// Email is been sent at "+to+" . Please check inbox !
+
+// ");
+//         }
+
+// });
+//     });
+// });
+//////////////////////////////////////////////////////
+
+
 $(function() {
  
     // grab the initial top offset of the navigation 
