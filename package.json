@@ -3,7 +3,9 @@
   "version"      : "0.0.0",
   "description"  : "Simple portfolio application.",
   "main"         : "server.js",
-  
+  "engines": {
+    "node": "6.11.1"
+  },
   "dependencies" : {
     "nodemailer" : "~0.7.1",
     "express"    : "~4.7.2",
